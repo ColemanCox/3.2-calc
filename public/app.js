@@ -4,7 +4,7 @@ var clearEl = document.getElementById('clear');
 var numButtons = document.getElementsByClassName('number-button');
 var modeButtons = document.getElementsByClassName('mode-button');
 
-clearEl.onclick = function () {
+clearEl.onclick = function() {
     valueEl.innerHTML = 0;
 };
 
